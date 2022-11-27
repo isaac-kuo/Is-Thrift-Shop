@@ -1,0 +1,371 @@
+body{margin:0px;}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+   background-color: #E8E4DB;
+   font-family: 'Antic Didone', serif;}
+
+
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bodyy{
+    max-width: 1920px;
+
+}
+
+
+.one{
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+
+}
+
+.logos{ 
+    width: 20px;
+    padding-left: 10px;
+}
+
+.left-side a{
+    margin: 0px;
+    font-family: 'Antic Didone';
+    font-size: 30px;    
+    text-align: left;
+    padding-left: 84px;
+
+}
+
+
+.right-side{
+    padding-right: 84px;
+    font-family: 'Antic Didone';
+    font-size: 20px;
+    line-height: 54px;
+
+}
+
+.right-side a1{
+    padding-left: 50px;
+    color: #121474;
+
+
+}
+
+.right-side a2{
+    padding-left: 50px;
+    color: #E46E5F;
+
+}
+
+.main-page-overlay{
+    padding-bottom: -30px;
+}
+
+
+.main-pic
+{
+width: 100%;
+}
+
+
+.me1{
+z-index: 1;
+position: absolute;
+top: 500px;
+padding-left: 120px;
+}
+
+
+.color-bar{ 
+    z-index: 3;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 450px;
+}
+
+.color-bar img{
+height: 55px;
+
+}
+
+
+.color-bar h2{ 
+    z-index: 3;
+    position: absolute;
+    right: 120px;
+    bottom: 9px;
+    margin: 0;
+    color:#E8E4DB;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.context-one{
+display: flex;
+padding-top: 50px;
+padding-left: 40%;
+}
+
+
+.context-left{
+    width: 140%;
+    }
+
+.context-left h1{
+    color: #121474;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+.context-left h2{
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0%;
+
+}
+
+.context-left h3{
+    position: relative;
+    top: -30px;
+    font-family: 'Abril Fatface', cursive;
+    color: #E46E5F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.context-left a1{
+    position: relative;
+    top: -8px;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+
+
+.context-right{
+padding-left: 17%;
+}
+
+.context-right a1{
+    position: relative;
+    top: -8px;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+
+.context-right img{
+    position: relative; 
+    top: 25%;
+    left: -5%;
+    width: 80%;
+    height: 80%;
+}
+
+
+.match-layer{
+    display: flex;
+padding-left: 18%;
+
+    
+}
+
+.match-text{
+position: relative;
+right: 4%;
+    padding-top: 100px;
+
+}
+
+
+.match-text h1{
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #121474;
+    padding-bottom: 10px;
+}
+
+.match-text a1{
+
+
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+
+}
+
+.match-layer img{
+width: 50%;
+height: 50%;
+ /* padding-left: 2%; */
+    
+}
+.cut-text{
+position: relative;
+padding-left: 55%;
+z-index: 5;
+
+}
+
+
+
+
+.cut-text h1{  
+    position: relative;
+    left: 363px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #E46E5F;
+    margin: 0%;
+
+}
+
+.cut-text h2{
+
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #121474;
+    margin: 0%;
+
+}
+
+
+.dont_look img{
+    z-index:4;
+
+    position: relative;
+    top: -25px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.places{
+display: flex;
+font-family: 'Alata', sans-serif;
+color: #121474;
+padding-left: 14%;
+padding-top: 60px;
+
+font-weight: 500;
+font-size: 20px;
+
+}
+
+.taipei img{
+    width: 50%;
+    display: flex;
+
+}
+
+
+
+.kaohsiung img{
+    width: 50%;
+    display: flex;
+
+}
+
+.taichung img{
+    width: 50%;
+    display: flex;
+
+}
+
+.place-layer2{
+    padding-top: 20px;
+    display: flex;
+    width: 217px;
+justify-content: space-between;
+}
+
+.more{
+    width: 15% !important; 
+    height: 15% !important; 
+
+}
+
+.foot{
+padding-top: 80px;
+
+}
+
+
+.foot-area{
+
+    background-color:#DDDCDC;
+    height: 460px;
+    padding-top: 100px;
+
+}
+
+
+.foot-area a1{
+    position: relative;
+top: 50px;
+right: -85px;
+    font-family: 'Alata', sans-serif;
+
+}
+
+.con-group img{
+    position: relative;
+    top: 50px;
+    align-content: center;
+    padding-right: 20px;
+    width: 2%;
+}
+
+.me2{
+    position: relative;
+    left: 77%;
+    bottom: 150px;
+    width: 15%;
+}
+
+.letmeflex{
+    position: relative;
+    left: 50px;
+}
